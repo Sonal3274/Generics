@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb327293-d25d-4bb9-b482-faa7889e2e1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GenericsIntro.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fb327293-d25d-4bb9-b482-faa7889e2e1e" name="Changes" comment="Created an example for type cast with generic type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +49,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.GenericsIntroKt">
+  <component name="RunManager" selected="Kotlin.TypeCheckWithAKnownTypeArgumentKt">
     <configuration name="GenericTypeParametersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericTypeParametersKt" />
       <module name="Generics.main" />
@@ -74,8 +71,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeCastWithGenericTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TypeCastWithGenericTypeKt" />
+      <module name="Generics.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeCheckWithAKnownTypeArgumentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TypeCheckWithAKnownTypeArgumentKt" />
+      <module name="Generics.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TypeCheckWithAKnownTypeArgumentKt" />
+        <item itemvalue="Kotlin.TypeCastWithGenericTypeKt" />
         <item itemvalue="Kotlin.GenericsIntroKt" />
         <item itemvalue="Kotlin.GenericTypeParametersKt" />
         <item itemvalue="Kotlin.MainKt" />
@@ -90,11 +103,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677884754652</updated>
-      <workItem from="1677884756355" duration="1877000" />
+      <workItem from="1677884756355" duration="2423000" />
     </task>
+    <task id="LOCAL-00001" summary="Created an example for generic type parameters">
+      <created>1678090747234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678090747234</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created an example for type cast with generic type">
+      <created>1678091550997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678091550997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created an example for generic type parameters" />
+    <MESSAGE value="Created an example for type cast with generic type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for type cast with generic type" />
   </component>
 </project>
