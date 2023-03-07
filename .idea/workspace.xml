@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb327293-d25d-4bb9-b482-faa7889e2e1e" name="Changes" comment="Created an example for covariance">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Contravariance.kt" afterDir="false" />
+    <list default="true" id="fb327293-d25d-4bb9-b482-faa7889e2e1e" name="Changes" comment="Created an example for Contravariance">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StarProjection.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IsTypeASubtype.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/IsTypeASubtype.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.ContravarianceKt">
+  <component name="RunManager" selected="Kotlin.StarProjectionKt">
     <configuration name="ContravarianceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContravarianceKt" />
       <module name="Generics.main" />
@@ -61,13 +60,6 @@
     </configuration>
     <configuration name="CovarianceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CovarianceKt" />
-      <module name="Generics.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FunctionWithAReifiedTypeParametersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionWithAReifiedTypeParametersKt" />
       <module name="Generics.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,13 +79,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarProjectionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StarProjectionKt" />
+      <module name="Generics.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StarProjectionKt" />
         <item itemvalue="Kotlin.ContravarianceKt" />
         <item itemvalue="Kotlin.IsTypeASubtypeKt" />
         <item itemvalue="Kotlin.CovarianceKt" />
         <item itemvalue="Kotlin.ReplacingClassReferencesWithReifiedTypeParametersKt" />
-        <item itemvalue="Kotlin.FunctionWithAReifiedTypeParametersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677884754652</updated>
-      <workItem from="1677884756355" duration="6108000" />
+      <workItem from="1677884756355" duration="6367000" />
     </task>
     <task id="LOCAL-00001" summary="Created an example for generic type parameters">
       <created>1678090747234</created>
@@ -156,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678179429149</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created an example for Contravariance">
+      <created>1678181471199</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678181471199</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +176,7 @@
     <MESSAGE value="Created an example for replacing class references with a reified type parameters" />
     <MESSAGE value="Created an example to check whether a type is a subtype" />
     <MESSAGE value="Created an example for covariance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example for covariance" />
+    <MESSAGE value="Created an example for Contravariance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for Contravariance" />
   </component>
 </project>
