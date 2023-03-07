@@ -1,4 +1,6 @@
-open class Animal
+open class Animal {
+}
+
 class Cat : Animal()
 
 class Dog : Animal()
