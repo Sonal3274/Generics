@@ -1,4 +1,5 @@
 open class Animal {
+
 }
 
 class Cat : Animal()
