@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb327293-d25d-4bb9-b482-faa7889e2e1e" name="Changes" comment="Created an example for declaring a function with a reified type parameters">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ReplacingClassReferencesWithReifiedTypeParameters.kt" afterDir="false" />
+    <list default="true" id="fb327293-d25d-4bb9-b482-faa7889e2e1e" name="Changes" comment="Created an example for replacing class references with a reified type parameters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.ReplacingClassReferencesWithReifiedTypeParametersKt">
+  <component name="RunManager" selected="Kotlin.IsTypeASubtypeKt">
     <configuration name="FunctionWithAReifiedTypeParametersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FunctionWithAReifiedTypeParametersKt" />
       <module name="Generics.main" />
@@ -58,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsIntroKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericsIntroKt" />
+    <configuration name="IsTypeASubtypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsTypeASubtypeKt" />
       <module name="Generics.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.IsTypeASubtypeKt" />
         <item itemvalue="Kotlin.ReplacingClassReferencesWithReifiedTypeParametersKt" />
         <item itemvalue="Kotlin.FunctionWithAReifiedTypeParametersKt" />
         <item itemvalue="Kotlin.TypeCheckWithAKnownTypeArgumentKt" />
         <item itemvalue="Kotlin.TypeCastWithGenericTypeKt" />
-        <item itemvalue="Kotlin.GenericsIntroKt" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677884754652</updated>
-      <workItem from="1677884756355" duration="3239000" />
+      <workItem from="1677884756355" duration="3811000" />
     </task>
     <task id="LOCAL-00001" summary="Created an example for generic type parameters">
       <created>1678090747234</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678092459611</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created an example for replacing class references with a reified type parameters">
+      <created>1678093108005</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678093108005</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +151,7 @@
     <MESSAGE value="Created an example for type cast with generic type" />
     <MESSAGE value="Created an example for type check with a known type argument" />
     <MESSAGE value="Created an example for declaring a function with a reified type parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created an example for declaring a function with a reified type parameters" />
+    <MESSAGE value="Created an example for replacing class references with a reified type parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an example for replacing class references with a reified type parameters" />
   </component>
 </project>
